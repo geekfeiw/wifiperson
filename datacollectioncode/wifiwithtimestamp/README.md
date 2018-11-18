@@ -15,18 +15,19 @@ put *log_to_file_time.c* and *Makefile* into the folder *netlink* first.
 
 
 
-How to use:
+##How to use:
     
+> 
 sudo airmon-ng check kill
+
 sudo service network-manager stop
 
 
     receiver:
 	./setup_monitor_csi.sh 64 HT20
 	sudo ../netlink/log_to_file ~/Desktop/log.dat	
-   # new operation, with log_to_file_time.c, one can log time-stamps
-        sudo ../netlink/log_to_file_time ~/Desktop/log.dat ~/Desktop/time.txt
-   # 
+   ### new operation, with log_to_file_time.c, one can log time-stamps
+        sudo ../netlink/log_to_file_time ~/Desktop/log.dat ~/Desktop/time.txt 
 
     transmitter:
 	./setup_inject.sh 64 HT20
