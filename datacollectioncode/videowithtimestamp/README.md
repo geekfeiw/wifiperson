@@ -1,6 +1,8 @@
-Install OpenCV on Ubuntu, See the [tutorial](https://www.learnopencv.com/install-opencv3-on-ubuntu/)
+# Install OpenCV on Ubuntu
 
-Note:
+See the [tutorial](https://www.learnopencv.com/install-opencv3-on-ubuntu/)
+
+## Note:
 Step 4.1: Download opencv from Github
 >
 git clone https://github.com/opencv/opencv.git
