@@ -1,4 +1,4 @@
-# WiFi Person
+# WiFi Perception
 Code of paper, Person-in-WiFi: A Step towards Person Perception using 1D Sensors. In this paper, we tend to use WiFi to capture human pose and body. The paper is under review, due to some issues, we have not made paper and code publicly. Still, we release data collection tools in this repo.
 
 # System
