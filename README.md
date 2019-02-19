@@ -8,4 +8,3 @@ Meanwhile, we record WiFi signals to train a deep learning.
 
 ![system](figs/systems.png)
 # Result
-![Result](figs/result.png)
