@@ -7,5 +7,6 @@ We use camera to capture human as annotations. Specifically, we use a Mask R-CNN
 Meanwhile, we record WiFi signals to train a deep learning.
 
 ![system](figs/systems.png)
-# Result
+
+# Results
 ![result](figs/result.png)
