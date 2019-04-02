@@ -10,10 +10,12 @@ Build log_to_file, a command line tool that writes CSI obtained via the driver t
 
 make -C linux-80211n-csitool-supplementary/netlink
 ```
-put *log_to_file_time.c* and *Makefile* into the folder *netlink* first.
+put **log_to_file_time.c** and **Makefile** into the folder **netlink** first. 
 
 
 ## How to use: new operation, with log_to_file_time.c, one can log time-stamps
  
+ ```
  sudo ../netlink/log_to_file_time ~/Desktop/log.dat ~/Desktop/time.txt 
  
+````
