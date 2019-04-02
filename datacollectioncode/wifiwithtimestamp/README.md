@@ -13,7 +13,7 @@ make -C linux-80211n-csitool-supplementary/netlink
 put **log_to_file_time.c** and **Makefile** into the folder **netlink** first. 
 
 
-## How to use: new operation, with log_to_file_time.c, one can log time-stamps
+## How to use: with log_to_file_time.c, one can log time-stamps
  
  ```
  sudo ../netlink/log_to_file_time ~/Desktop/log.dat ~/Desktop/time.txt 
