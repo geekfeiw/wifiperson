@@ -26,5 +26,5 @@ git checkout 3.1.0
 cd ..
 ```
 
-We have tried a lot of OpenCV version, and finally found the **3.1.0** can adjust frame rate and  
+We have tried a lot of OpenCV version, and finally found the **3.1.0** can adjust frame rate and match with the **datetime.datetime.now()**.
 
