@@ -4,7 +4,7 @@ Code of paper, Person-in-WiFi: Fine-grained Person Perception using WiFi. In thi
 # System
 We use camera to capture human as annotations. Specifically, we use a Mask R-CNN implementation, [detectorch](https://github.com/ignacio-rocco/detectorch) to prepare human mask, and [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose) python-api to prepare human pose with help of OpenPose developers, [Gines](https://github.com/gineshidalgo99) and [Raaj](https://github.com/soulslicer).  
 
-Meanwhile, we record WiFi signals to train a deep learning.
+Meanwhile, we record WiFi signals to train a deep network.
 
 ![system](figs/systems.png)
 
