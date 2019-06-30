@@ -8,7 +8,10 @@
 ## How to use
 1. install [detectorch](https://github.com/ignacio-rocco/detectorch) following its description;
 2. replace the **/lib/utils/vis.py** with **vis.py** here;
-3. the **demo_FPN_video_new.py** takes one video as inputs and outputs the masks and bboxes of every frame.
+3. **demo_FPN_video_new.py** takes a set of videos as inputs and outputs the masks and bboxes of every frame.
 
-## The update of the **vis.py**
+## Update of the **vis.py**
+1. [def return_image_mask()](https://github.com/geekfeiw/wifiperson/blob/8a8a7e8d9829892fa2dc19f4a462eee1166b5f52/dataprocessing/vis.py#L806), return masks of persons, then align with their boxes in **demo_FPN_video_new.py**
 
+2. [def save_image_mask()](https://github.com/geekfeiw/wifiperson/blob/8a8a7e8d9829892fa2dc19f4a462eee1166b5f52/dataprocessing/vis.py#L546)
+save mask of all trained objects, 80 classes (departed approaches, not recommended)
