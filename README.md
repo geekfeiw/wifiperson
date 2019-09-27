@@ -5,7 +5,7 @@ Code of paper, Person-in-WiFi: Fine-grained Person Perception using WiFi. In thi
 
 # Updates
 
-[CSI tool](https://github.com/spanev/linux-80211n-csitool) now supports Ubuntu 18.04.
+[CSI tool](https://github.com/spanev/linux-80211n-csitool) now supports Ubuntu 18.04, Sep. 2019.
 
 
 # System
